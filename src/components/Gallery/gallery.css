@@ -1,0 +1,26 @@
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 20px;
+  background-color: aquamarine;
+}
+
+.item {
+  border: 1px solid blueviolet;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+  grid-area: 3/3/4/4;
+}
+
+.item9 {
+  grid-area: 1/2/2/1;
+}

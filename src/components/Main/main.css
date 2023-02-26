@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px) minmax(200px, min-content);
+  grid-template-rows: repeat(2, minmax(100px, min-content));
+  gap: 30px;
+  background-color: gray;
+}
+
+.container > div {
+  background-color: rgb(13, 6, 107);
+  border: 1px solid red;
+  color: white;
+}
+
+.container .grid-item6 {
+  padding: 20px;
+}

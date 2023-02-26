@@ -1,0 +1,33 @@
+main {
+  background-color: antiquewhite;
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 200px 200px 70px;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+nav {
+  background-color: aqua;
+  grid-column: 1/-1;
+}
+
+aside {
+  background-color: rgb(155, 154, 154);
+  grid-row: 2 / span 2;
+}
+
+article {
+  background-color: beige;
+}
+
+section {
+  background-color: brown;
+  grid-column: 2/-1;
+}
+
+footer {
+  background-color: blue;
+  grid-column: 1/-1;
+}
